@@ -177,7 +177,7 @@ This will open a browser window where you can send prompts and observe how the o
 
 Watch the demo in action:
 
-[▶️ Click to watch the demo](assets/multi_agent_demo.mp4)
+https://github.com/user-attachments/assets/7cf85dae-4aaf-49e6-a62a-64d95f00d3db
 
 ## Key Features Demonstrated
 
