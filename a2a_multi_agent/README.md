@@ -37,6 +37,23 @@ This enables easy streaming, structured task updates, and standard artifact hand
 
 ---
 
+## Tech Stack & SDKs Used
+
+This demo is built using the official **Google A2A Python SDK**, which provides:
+
+- `AgentCard` definitions
+- Standardized agent capabilities
+- JSON-RPC task interfaces (`createTask`, `TaskStatusUpdateEvent`, `TaskArtifactUpdateEvent`)
+- In-memory task storage
+- A lightweight Starlette-based A2A server with async support
+
+In addition, it uses:
+
+- **LangChain** for model abstraction and prompt handling
+- **Gemini 2.0 Flash** via `langchain-google-genai`
+- **Uvicorn + Starlette** to serve each agent as a standalone A2A-compatible microservice
+- **Streamlit** as a lightweight UI layer to interact with the orchestrator
+
 ### 📁 Folder Structure
 
 ```bash
