@@ -33,6 +33,8 @@ This demo follows a simple multi-agent architecture:
 All communication between agents follows **Google’s A2A protocol** using **JSON-RPC 2.0 over HTTP**, served via lightweight **Starlette applications** running on **Uvicorn**.  
 This enables easy streaming, structured task updates, and standard artifact handling between services.
 
+<img width="1092" height="889" alt="Multi_Agent_A2A" src="https://github.com/user-attachments/assets/39555f84-2f01-4a75-9517-c9d45409166a" />
+
 ---
 
 ### 📁 Folder Structure
